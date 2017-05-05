@@ -1,0 +1,43 @@
+Etudiant:
+  actAs: [Timestampable]
+  columns:
+    nom:
+      type: string
+      notnull: true
+    prenom:
+      type: string
+      notnull: true
+    sexe:
+      type: string
+      notnull: true
+    datenaiss:
+      type: string
+      notnull: true
+    id_classe:
+      type: string
+      notnull: true
+  relations:
+    classe:
+      class: Classe
+      local: id_classe
+      foreign: id
+
+Classe:
+  actAs: [Timestampable]
+  columns:
+    nom:
+      type: string
+      notnull: true
+    code:
+      type: string
+      notnull: true
+
+Matiere:
+  actAs: [Timestampable]
+  columns:
+    libelle:
+      type: string
+      notnull: true
+    heure:
+      type: string
+      notnull: true

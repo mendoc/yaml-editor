@@ -1,0 +1,8 @@
+.side-nav.fixed{
+    z-index: 2;
+    padding-top: 60px;
+}
+
+.side-nav li > a {
+    cursor:pointer;
+}
