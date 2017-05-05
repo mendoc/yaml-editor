@@ -1,2 +1,2 @@
-# yaml-editor
+# Yaml Editor
 Online Yaml File Manager
