@@ -8,7 +8,7 @@
 
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
     <title>Yaml Editor</title>
     <meta charset="utf-8">
